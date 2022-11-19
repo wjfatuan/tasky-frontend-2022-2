@@ -17,7 +17,6 @@ Debe tener instaladas las siguientes herramientas:
 - [Visual Studio Code](https://code.visualstudio.com/) (u otro editor de su preferencia)
 - [NodeJS](https://nodejs.org/en/)
 
-
 ## Como contribuir a este repositorio
 
 Una vez tenga asignada una tarea del proyecto en Trello, puede contribuir a este repositorio siguiendo estos pasos:
@@ -46,7 +45,7 @@ Una vez tenga asignada una tarea del proyecto en Trello, puede contribuir a este
     git commit -m "Tarea U03: Se modifica la pagina XXXX agregando el campo YYYY"
     ```
 
-   - Revise el ejemplo `Dummy` si tiene dudas sobre como implementar una nueva pantalla. Este proyecto usa la libreria de componentes [MUI](https://mui.com/material-ui/getting-started/overview/), consulte su documentacion para mas informacion sobre como usarlos.
+   - Revise el ejemplo `Dummy` si tiene dudas sobre como implementar una nueva pantalla. Este proyecto usa la libreria de componentes [MUI](https://mui.com/material-ui/getting-started/overview/), consulte su documentacion para mas informacion sobre como usarlos. Revise la carpeta [docs](docs/START.md) para más información sobre como crear sus componentes.
 
 4. Haga una solicitud de cambios (también conocido como Pull Resuqet o PR) al repositorio principal. En este punto los cambios que hizo deben estar funcionando localmente.
 
