@@ -1,6 +1,6 @@
 # Tasky
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/814d48608b544f66b17618e014f99931)](https://www.codacy.com/gh/wjfatuan/tasky-frontend/dashboard?utm_source=github.com&utm_medium=referral&utm_content=wjfatuan/tasky-frontend&utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9c4d9473c87a43c4a60cfad6edc5abfc)](https://www.codacy.com/gh/wjfatuan/tasky-frontend-2022-2/dashboard?utm_source=github.com&utm_medium=referral&utm_content=wjfatuan/tasky-frontend-2022-2&utm_campaign=Badge_Grade)
 
 Frontend (aplicación web) del proyecto Tasky del curso de Construcción de software. Esta aplicación está construida con [React](https://reactjs.org/) y [MUI](https://mui.com/core/). Permite la interacción con el API de Tasky ofreciendo distintas funcionalidades.
 
@@ -31,9 +31,9 @@ Una vez tenga asignada una tarea del proyecto en Trello, puede contribuir a este
    - Cambiese al directorio de trabajo donde quiere dejar la copia del repositorio.
    - Escriba `git clone` y pegue la URL copiada anteriormente, por ejemplo:
 
-    ```git
-    git clone https://github.com/YOUR-USERNAME/tasky-frontend
-    ```
+     ```git
+     git clone https://github.com/YOUR-USERNAME/tasky-frontend
+     ```
 
    - Presione enter, esto creara la copia local del repositorio
 
@@ -41,9 +41,9 @@ Una vez tenga asignada una tarea del proyecto en Trello, puede contribuir a este
 
    - En cada commit asegurese de poner un comentario adecuado para el cambio, incluyendo el número de su tarea. Por ejemplo:
 
-    ```git
-    git commit -m "Tarea U03: Se modifica la pagina XXXX agregando el campo YYYY"
-    ```
+     ```git
+     git commit -m "Tarea U03: Se modifica la pagina XXXX agregando el campo YYYY"
+     ```
 
    - Revise el ejemplo `Dummy` si tiene dudas sobre como implementar una nueva pantalla. Este proyecto usa la libreria de componentes [MUI](https://mui.com/material-ui/getting-started/overview/), consulte su documentacion para mas informacion sobre como usarlos. Revise la carpeta [docs](docs/START.md) para más información sobre como crear sus componentes.
 
@@ -81,15 +81,15 @@ Para probar de forma local su aplicación siga los siguientes pasos:
 
 2. Desde la terminal ejecute el siguiente comando para verificar que las pruebas funcionan:
 
-  ```bash
-  npm test
-  ```
+   ```bash
+   npm test
+   ```
 
 3. Desde la terminal ejecute el siguiente comando para inciar el servidor de forma local:
 
-  ```bash
-  npm start
-  ```
+   ```bash
+   npm start
+   ```
 
 4. Se abrirá la apliación en su navegador en la URL <http://localhost:3000>
 
@@ -101,6 +101,6 @@ Puede verificar distintos atributos de calidad del código fuente del proyecto:
 
   1. Ejecute el siguiente comando para generar el reporte de linter:
 
-    ```bash
-    npx eslint
-    ```
+     ```bash
+     npx eslint
+     ```
