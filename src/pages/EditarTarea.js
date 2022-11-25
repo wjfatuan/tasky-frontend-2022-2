@@ -7,14 +7,14 @@ import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 
-class CrearTareaPage extends React.PureComponent {
+class EditarTareaPage extends React.PureComponent {
   render() {
     return (
       <Box sx={{ marginTop: 1, display: 'flex', flexDirection: 'column', alignItems: 'center',}}>
         <Grid container spacing={1} maxWidth="sm">
           <Grid item xs={12}>
             <Typography variant="h3" color="inherit" component="h1">
-              Crear Tarea
+              Editar Tarea 
             </Typography>
           </Grid>
           <Grid item xs={12}>
@@ -108,8 +108,8 @@ class CrearTareaPage extends React.PureComponent {
             </div>
           </Grid>
           <Grid item xs={12}>
-            <Button variant="contained" fullWidth="true" href="/CrearTarea">
-              Crear Tarea
+            <Button variant="contained" fullWidth="true" href="/Home">
+              Editar Tarea
             </Button>
           </Grid>
         </Grid>
@@ -117,4 +117,4 @@ class CrearTareaPage extends React.PureComponent {
     );
   }
 }
-export default CrearTareaPage;
+export default EditarTareaPage;

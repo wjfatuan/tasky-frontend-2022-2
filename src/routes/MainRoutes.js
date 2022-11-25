@@ -5,6 +5,7 @@ import CrearTareaPage from '../pages/CrearTareaPage';
 import ConsultarTareaPage from '../pages/ConsultarTareaPage';
 import AboutPage from '../pages/About';
 import RegistroPage from '../pages/Registro';
+import EditarTarea from '../pages/EditarTarea';
 
 const MainRoutes = [
   {
@@ -28,6 +29,9 @@ const MainRoutes = [
   },{
     path: 'consultarTarea',
     element: <ConsultarTareaPage />,
+  },{
+    path: 'editarTarea',
+    element: <EditarTarea />,
   },
 ];
 
