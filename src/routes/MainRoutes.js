@@ -1,6 +1,8 @@
 import React from 'react';
 import PublicPage from '../pages/Public';
 import HomePage from '../pages/Home';
+import CrearTareaPage from '../pages/CrearTareaPage';
+import ConsultarTareaPage from '../pages/ConsultarTareaPage';
 import AboutPage from '../pages/About';
 import RegistroPage from '../pages/Registro';
 
@@ -20,6 +22,12 @@ const MainRoutes = [
   {
     path: 'registro',
     element: <RegistroPage />,
+  },{
+    path: 'crearTarea',
+    element: <CrearTareaPage />,
+  },{
+    path: 'consultarTarea',
+    element: <ConsultarTareaPage />,
   },
 ];
 
