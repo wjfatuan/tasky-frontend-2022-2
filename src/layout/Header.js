@@ -19,6 +19,8 @@ import { styled } from '@mui/material/styles';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import HomeIcon from '@mui/icons-material/Home';
+import PostAddIcon from '@mui/icons-material/PostAdd';
+import ContentPasteSearchIcon from '@mui/icons-material/ContentPasteSearch';
 import MenuIcon from '@mui/icons-material/Menu';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import InfoIcon from '@mui/icons-material/Info';
@@ -169,6 +171,61 @@ export default function Header() {
               <ListItemText primary="Inicio" sx={{ opacity: open ? 1 : 0 }} />
             </ListItemButton>
           </ListItem>
+
+          <ListItem
+            key="crearTarea"
+            disablePadding
+            sx={{ display: 'block' }}
+            component={Link}
+            to="/CrearTarea"
+          >
+            <ListItemButton
+              sx={{
+                minHeight: 48,
+                justifyContent: open ? 'initial' : 'center',
+                px: 2.5,
+              }}
+            >
+              <ListItemIcon
+                sx={{
+                  minWidth: 0,
+                  mr: open ? 3 : 'auto',
+                  justifyContent: 'center',
+                }}
+              >
+                <PostAddIcon />
+              </ListItemIcon>
+              <ListItemText primary="Crear Tarea" sx={{ opacity: open ? 1 : 0 }} />
+            </ListItemButton>
+          </ListItem>      
+
+          <ListItem
+            key="consultarTarea"
+            disablePadding
+            sx={{ display: 'block' }}
+            component={Link}
+            to="/ConsultarTarea"
+          >
+            <ListItemButton
+              sx={{
+                minHeight: 48,
+                justifyContent: open ? 'initial' : 'center',
+                px: 2.5,
+              }}
+            >
+              <ListItemIcon
+                sx={{
+                  minWidth: 0,
+                  mr: open ? 3 : 'auto',
+                  justifyContent: 'center',
+                }}
+              >
+                <ContentPasteSearchIcon />
+              </ListItemIcon>
+              <ListItemText primary="Consultar Tarea" sx={{ opacity: open ? 1 : 0 }} />
+            </ListItemButton>
+          </ListItem> 
+
           <ListItem
             key="about"
             disablePadding
