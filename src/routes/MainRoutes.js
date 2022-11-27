@@ -3,6 +3,7 @@ import PublicPage from '../pages/Public';
 import HomePage from '../pages/Home';
 import AboutPage from '../pages/About';
 import RegistroPage from '../pages/Registro';
+import CrearEtiquetaPage from '../pages/Etiqueta';
 
 const MainRoutes = [
   {
@@ -20,6 +21,10 @@ const MainRoutes = [
   {
     path: 'registro',
     element: <RegistroPage />,
+  },
+  {
+    path: 'crearEtiqueta',
+    element: <CrearEtiquetaPage  />,
   },
 ];
 

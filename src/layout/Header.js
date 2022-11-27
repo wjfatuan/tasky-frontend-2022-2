@@ -199,7 +199,7 @@ export default function Header() {
             </ListItemButton>
           </ListItem>
           <Divider />
-          {['list1', 'list2', 'list3'].map((text, index) => (
+          {['crearEtiqueta', 'list2', 'list3'].map((text, index) => (
             <ListItem
               key={text}
               disablePadding
